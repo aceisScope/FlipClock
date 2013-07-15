@@ -9,17 +9,19 @@ A clock view displaying time with flip animation, like the HTC clock. It comes i
 
 1. Time pattern is used to describe whether the clock displays second or minute only
 ``` objective-c
-
     - (void)setTimePattern:(kFlipTimePattern)pattern;
-    
 ```
+
 2. Flip to a certain time, e.g. @"01-33-40" or @"20-55", note that time string here is separated by "-".
 ``` objective-c
-
     - (void)flipToTime:(NSString*)time;
-
 ```
-3. Make the clock tick. Say make it flip every minute or second, to display current time.    
+
+3. Make the clock tick. Say make it flip every minute or second, to display current time.   
+
+###To do
+
+Support customised font colour, tile colour ,background colour, animation duration, etc. 
 
 ###Reference
 
