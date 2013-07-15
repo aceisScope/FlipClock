@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045CBDAF178EA7F000D6C175 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045CBDAE178EA7F000D6C175 /* UIKit.framework */; };
+		045CBDB1178EA7F000D6C175 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045CBDB0178EA7F000D6C175 /* Foundation.framework */; };
+		045CBDB3178EA7F000D6C175 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045CBDB2178EA7F000D6C175 /* CoreGraphics.framework */; };
+		045CBDB9178EA7F000D6C175 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 045CBDB7178EA7F000D6C175 /* InfoPlist.strings */; };
+		045CBDBB178EA7F000D6C175 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CBDBA178EA7F000D6C175 /* main.m */; };
+		045CBDBF178EA7F000D6C175 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CBDBE178EA7F000D6C175 /* AppDelegate.m */; };
+		045CBDC1178EA7F000D6C175 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 045CBDC0178EA7F000D6C175 /* Default.png */; };
+		045CBDC3178EA7F000D6C175 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045CBDC2178EA7F000D6C175 /* Default@2x.png */; };
+		045CBDC5178EA7F000D6C175 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045CBDC4178EA7F000D6C175 /* Default-568h@2x.png */; };
+		045CBDC8178EA7F000D6C175 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CBDC7178EA7F000D6C175 /* ViewController.m */; };
+		045CBDCB178EA7F000D6C175 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045CBDC9178EA7F000D6C175 /* ViewController_iPhone.xib */; };
+		045CBDCE178EA7F000D6C175 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045CBDCC178EA7F000D6C175 /* ViewController_iPad.xib */; };
+		045CBDD7178EA8A600D6C175 /* TimeTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CBDD6178EA8A600D6C175 /* TimeTile.m */; };
+		045CBDD9178EAA5E00D6C175 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045CBDD8178EAA5E00D6C175 /* QuartzCore.framework */; };
+		0488110E179160BE004C943A /* FlipClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0488110D179160BE004C943A /* FlipClockView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		045CBDAB178EA7F000D6C175 /* FlipClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		045CBDAE178EA7F000D6C175 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		045CBDB0178EA7F000D6C175 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		045CBDB2178EA7F000D6C175 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		045CBDB6178EA7F000D6C175 /* FlipClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipClock-Info.plist"; sourceTree = "<group>"; };
+		045CBDB8178EA7F000D6C175 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		045CBDBA178EA7F000D6C175 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		045CBDBC178EA7F000D6C175 /* FlipClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlipClock-Prefix.pch"; sourceTree = "<group>"; };
+		045CBDBD178EA7F000D6C175 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		045CBDBE178EA7F000D6C175 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		045CBDC0178EA7F000D6C175 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		045CBDC2178EA7F000D6C175 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		045CBDC4178EA7F000D6C175 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		045CBDC6178EA7F000D6C175 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		045CBDC7178EA7F000D6C175 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		045CBDCA178EA7F000D6C175 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		045CBDCD178EA7F000D6C175 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		045CBDD5178EA8A600D6C175 /* TimeTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeTile.h; sourceTree = "<group>"; };
+		045CBDD6178EA8A600D6C175 /* TimeTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeTile.m; sourceTree = "<group>"; };
+		045CBDD8178EAA5E00D6C175 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0488110C179160BE004C943A /* FlipClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipClockView.h; sourceTree = "<group>"; };
+		0488110D179160BE004C943A /* FlipClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipClockView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		045CBDA8178EA7F000D6C175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045CBDD9178EAA5E00D6C175 /* QuartzCore.framework in Frameworks */,
+				045CBDAF178EA7F000D6C175 /* UIKit.framework in Frameworks */,
+				045CBDB1178EA7F000D6C175 /* Foundation.framework in Frameworks */,
+				045CBDB3178EA7F000D6C175 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045CBDA2178EA7F000D6C175 = {
+			isa = PBXGroup;
+			children = (
+				045CBDB4178EA7F000D6C175 /* FlipClock */,
+				045CBDAD178EA7F000D6C175 /* Frameworks */,
+				045CBDAC178EA7F000D6C175 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		045CBDAC178EA7F000D6C175 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				045CBDAB178EA7F000D6C175 /* FlipClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		045CBDAD178EA7F000D6C175 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				045CBDD8178EAA5E00D6C175 /* QuartzCore.framework */,
+				045CBDAE178EA7F000D6C175 /* UIKit.framework */,
+				045CBDB0178EA7F000D6C175 /* Foundation.framework */,
+				045CBDB2178EA7F000D6C175 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		045CBDB4178EA7F000D6C175 /* FlipClock */ = {
+			isa = PBXGroup;
+			children = (
+				045CBDD4178EA88B00D6C175 /* classes */,
+				045CBDBD178EA7F000D6C175 /* AppDelegate.h */,
+				045CBDBE178EA7F000D6C175 /* AppDelegate.m */,
+				045CBDC6178EA7F000D6C175 /* ViewController.h */,
+				045CBDC7178EA7F000D6C175 /* ViewController.m */,
+				045CBDC9178EA7F000D6C175 /* ViewController_iPhone.xib */,
+				045CBDCC178EA7F000D6C175 /* ViewController_iPad.xib */,
+				045CBDB5178EA7F000D6C175 /* Supporting Files */,
+			);
+			path = FlipClock;
+			sourceTree = "<group>";
+		};
+		045CBDB5178EA7F000D6C175 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				045CBDB6178EA7F000D6C175 /* FlipClock-Info.plist */,
+				045CBDB7178EA7F000D6C175 /* InfoPlist.strings */,
+				045CBDBA178EA7F000D6C175 /* main.m */,
+				045CBDBC178EA7F000D6C175 /* FlipClock-Prefix.pch */,
+				045CBDC0178EA7F000D6C175 /* Default.png */,
+				045CBDC2178EA7F000D6C175 /* Default@2x.png */,
+				045CBDC4178EA7F000D6C175 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		045CBDD4178EA88B00D6C175 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				045CBDD5178EA8A600D6C175 /* TimeTile.h */,
+				045CBDD6178EA8A600D6C175 /* TimeTile.m */,
+				0488110C179160BE004C943A /* FlipClockView.h */,
+				0488110D179160BE004C943A /* FlipClockView.m */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		045CBDAA178EA7F000D6C175 /* FlipClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045CBDD1178EA7F000D6C175 /* Build configuration list for PBXNativeTarget "FlipClock" */;
+			buildPhases = (
+				045CBDA7178EA7F000D6C175 /* Sources */,
+				045CBDA8178EA7F000D6C175 /* Frameworks */,
+				045CBDA9178EA7F000D6C175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipClock;
+			productName = FlipClock;
+			productReference = 045CBDAB178EA7F000D6C175 /* FlipClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		045CBDA3178EA7F000D6C175 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Appublisher;
+			};
+			buildConfigurationList = 045CBDA6178EA7F000D6C175 /* Build configuration list for PBXProject "FlipClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 045CBDA2178EA7F000D6C175;
+			productRefGroup = 045CBDAC178EA7F000D6C175 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				045CBDAA178EA7F000D6C175 /* FlipClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		045CBDA9178EA7F000D6C175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045CBDB9178EA7F000D6C175 /* InfoPlist.strings in Resources */,
+				045CBDC1178EA7F000D6C175 /* Default.png in Resources */,
+				045CBDC3178EA7F000D6C175 /* Default@2x.png in Resources */,
+				045CBDC5178EA7F000D6C175 /* Default-568h@2x.png in Resources */,
+				045CBDCB178EA7F000D6C175 /* ViewController_iPhone.xib in Resources */,
+				045CBDCE178EA7F000D6C175 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		045CBDA7178EA7F000D6C175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045CBDBB178EA7F000D6C175 /* main.m in Sources */,
+				045CBDBF178EA7F000D6C175 /* AppDelegate.m in Sources */,
+				045CBDC8178EA7F000D6C175 /* ViewController.m in Sources */,
+				045CBDD7178EA8A600D6C175 /* TimeTile.m in Sources */,
+				0488110E179160BE004C943A /* FlipClockView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		045CBDB7178EA7F000D6C175 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045CBDB8178EA7F000D6C175 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		045CBDC9178EA7F000D6C175 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045CBDCA178EA7F000D6C175 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		045CBDCC178EA7F000D6C175 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045CBDCD178EA7F000D6C175 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		045CBDCF178EA7F000D6C175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		045CBDD0178EA7F000D6C175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		045CBDD2178EA7F000D6C175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipClock/FlipClock-Prefix.pch";
+				INFOPLIST_FILE = "FlipClock/FlipClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		045CBDD3178EA7F000D6C175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipClock/FlipClock-Prefix.pch";
+				INFOPLIST_FILE = "FlipClock/FlipClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045CBDA6178EA7F000D6C175 /* Build configuration list for PBXProject "FlipClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045CBDCF178EA7F000D6C175 /* Debug */,
+				045CBDD0178EA7F000D6C175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045CBDD1178EA7F000D6C175 /* Build configuration list for PBXNativeTarget "FlipClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045CBDD2178EA7F000D6C175 /* Debug */,
+				045CBDD3178EA7F000D6C175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 045CBDA3178EA7F000D6C175 /* Project object */;
+}
